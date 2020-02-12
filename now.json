@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "alias": "www.formation.ceo",
+  "scope": "formation",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://formation.ceo/$1" }
+    }
+  ]
+}
